@@ -33,7 +33,7 @@ const Footer = () => {
       </a>
 
       <button
-        onClick={() => handleCopy('eakpikie@example.com', 'email')}
+        onClick={() => handleCopy('eakpikie@gmail.com', 'email')}
         aria-label="Copy Email"
         className="hover:text-white focus:outline-none"
       >
