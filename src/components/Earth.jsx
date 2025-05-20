@@ -19,7 +19,7 @@ const Earth = (props) => {
     }
   });
 
-  const { nodes, materials } = useGLTF('/models/low_poly_planet_earth.glb');
+  const { nodes, materials } = useGLTF('/models/Earth.glb');
 
   return (
     <group {...props} ref={earthRef} dispose={null}>
@@ -35,6 +35,6 @@ const Earth = (props) => {
   );
 };
 
-useGLTF.preload('/models/low_poly_planet_earth.glb');
+useGLTF.preload('/models/Earth.glb');
 
 export default Earth;

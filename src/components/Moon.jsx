@@ -13,7 +13,7 @@ import { useGLTF } from '@react-three/drei'
 const Moon = (props) => {
 
 
-  const { nodes, materials } = useGLTF('models/low_poly_moon.glb')
+  const { nodes, materials } = useGLTF('models/Moon.glb')
   return (
     <group {...props} dispose={null}>
       <mesh
@@ -62,6 +62,6 @@ const Moon = (props) => {
   )
 }
 
-useGLTF.preload('/models/low_poly_moon.glb')
+useGLTF.preload('/models/Moon.glb')
 
 export default Moon
